@@ -1,0 +1,26 @@
+{
+  "name": "vu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development",
+    "start-watch": "webpack-dev-server --mode development --open --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "html-loader": "^0.5.5",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "vue-loader": "^15.7.0",
+    "vue-property-decorator": "^8.1.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
